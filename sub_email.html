@@ -3,68 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Eyv ai!</title>
+    <title>Subscription Confirmed - Eyv ai</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .header {
-            background-color: #4a90e2;
+            background-color: #000000;
             color: white;
             padding: 20px;
             text-align: center;
         }
+        .logo {
+            width: 150px;
+            height: auto;
+        }
         .content {
-            padding: 20px;
-            background-color: #f9f9f9;
+            padding: 30px;
         }
         .button {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #4a90e2;
+            padding: 12px 24px;
+            background-color: #5e35b1;
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-weight: bold;
             margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #4527a0;
         }
         .footer {
             text-align: center;
             margin-top: 20px;
+            padding: 20px;
             font-size: 0.8em;
             color: #666;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Welcome to Eyv ai!</h1>
-    </div>
-    <div class="content">
-        <p>Dear Valued Customer,</p>
-        <p>Thank you for subscribing to Eyv ai! We're thrilled to have you on board and can't wait to help you explore the exciting world of AI technology.</p>
-        <p>Your subscription has been successfully activated, and you now have full access to our premium features and services.</p>
-        <p>Here's what you can look forward to:</p>
-        <ul>
-            <li>Cutting-edge AI tools and solutions</li>
-            <li>Exclusive content and resources</li>
-            <li>Priority customer support</li>
-            <li>Regular updates and new feature releases</li>
-        </ul>
-        <p>To get started, simply click the button below to access your account dashboard:</p>
-        <a href="#" class="button">Access Your Account</a>
-        <p>If you have any questions or need assistance, our support team is always here to help. Don't hesitate to reach out to us at support@eyvai.com.</p>
-        <p>Once again, welcome to the Eyv ai family. We're excited to be part of your AI journey!</p>
-        <p>Best regards,<br>The Eyv ai Team</p>
-    </div>
-    <div class="footer">
-        <p>© 2024 Eyv ai. All rights reserved.</p>
-        <p>123 AI Street, Tech City, TC 12345</p>
-        <p><a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a></p>
+    <div class="container">
+        <div class="header">
+            <img src="https://pub-171cc82ecb794d978b24cd1bf6ced04f.r2.dev/logo_fac.png" alt="Eyv ai Logo" class="logo">
+        </div>
+        <div class="content">
+            <h1>Subscription Confirmed!</h1>
+            <p>Thank you for subscribing to Eyv ai. Your subscription has been successfully activated.</p>
+            <p>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                Your account is now active
+            </p>
+            <p>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                Access to premium features unlocked
+            </p>
+            <a href="#" class="button">Access Your Account</a>
+        </div>
+        <div class="footer">
+            <p>© 2024 Eyv ai. All rights reserved.</p>
+            <p>
+                <a href="#">Manage Subscription</a> | <a href="#">Privacy Policy</a>
+            </p>
+        </div>
     </div>
 </body>
 </html>

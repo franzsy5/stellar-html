@@ -21,22 +21,29 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .header {
-            background-color: #000000;
+            background: linear-gradient(135deg, #4a90e2 0%, #5e35b1 100%);
             color: white;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
         }
         .logo {
             width: 150px;
             height: auto;
+            display: block;
+            margin: 0 auto;
         }
         .content {
             padding: 30px;
         }
+        .greeting {
+            font-size: 1.2em;
+            color: #4a90e2;
+            margin-bottom: 20px;
+        }
         .button {
             display: inline-block;
             padding: 12px 24px;
-            background-color: #5e35b1;
+            background-color: #4a90e2;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -45,7 +52,7 @@
             transition: background-color 0.3s ease;
         }
         .button:hover {
-            background-color: #4527a0;
+            background-color: #357abD;
         }
         .footer {
             text-align: center;
@@ -61,6 +68,7 @@
             height: 24px;
             margin-right: 10px;
             vertical-align: middle;
+            fill: #4a90e2;
         }
     </style>
 </head>
@@ -70,7 +78,8 @@
             <img src="https://pub-171cc82ecb794d978b24cd1bf6ced04f.r2.dev/logo_fac.png" alt="Eyv ai Logo" class="logo">
         </div>
         <div class="content">
-            <h1>Subscription Confirmed!</h1>
+            <p class="greeting">Hello, {User's Name}!</p>
+            <h1 style="color: #4a90e2;">Subscription Confirmed!</h1>
             <p>Thank you for subscribing to Eyv ai. Your subscription has been successfully activated.</p>
             <p>
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -91,7 +100,7 @@
         <div class="footer">
             <p>© 2024 Eyv ai. All rights reserved.</p>
             <p>
-                <a href="#">Manage Subscription</a> | <a href="#">Privacy Policy</a>
+                <a href="#" style="color: #4a90e2;">Manage Subscription</a> | <a href="#" style="color: #4a90e2;">Privacy Policy</a>
             </p>
         </div>
     </div>
